@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1920dp"
+    android:height="1080dp"
+    android:viewportWidth="1920"
+    android:viewportHeight="1080">
+    <!-- Dark blue background -->
+    <path
+        android:pathData="M0,0h1920v1080h-1920z"
+        android:fillColor="#0D1B2A" />
+    <!-- Accent gradient shape -->
+    <path
+        android:pathData="M0,0h1920v400L0,600z"
+        android:fillColor="#1A237E"
+        android:fillAlpha="0.5" />
+    <!-- Red accent stripe -->
+    <path
+        android:pathData="M0,900h1920v60h-1920z"
+        android:fillColor="#D52B1E"
+        android:fillAlpha="0.6" />
+</vector>
